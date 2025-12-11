@@ -4,6 +4,12 @@
 
 A reproduction model for Non-Covalent Interaction prediction from DeepNCI research (Li, 2021)
 
+the project created by
+
+Syukur Rahmat Gulo (20924302) and Gia Muhammad Agusta (20924301)
+
+Master Computational Science Student, Institut Teknologi Bandung
+
 
 
 This project is reproduce a research from journal article "DeepNCI: DFT Noncovalent Interaction Correction with Transferable Multimodal Three-Dimensional Convolutional Neural Networks"
