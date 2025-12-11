@@ -1,0 +1,4 @@
+scf_total_energy_au,homo_energy_eV,lumo_energy_eV,homo_lumo_gap_eV,homo_minus1_energy_eV,lumo_plus1_energy_eV,dipole_x_debye,dipole_y_debye,dipole_z_debye,dipole_magnitude_debye,polarizability_iso_au,polarizability_aniso_au,max_mulliken_charge,min_mulliken_charge,sum_mulliken_charges,mol_mass_amu,num_atoms,num_electrons,spin_multiplicity,charge,scf_iterations,molecule
+,,,,,,,,,,,,,,,,,,1,0,,1155_ammoniadimer09
+,,,,,,,,,,,,,,,,,,1,0,,1156_ammoniadimer10
+,,,,,,,,,,,,,,,,,,1,0,,1157_ammoniadimer12

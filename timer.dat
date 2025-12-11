@@ -1,0 +1,395 @@
+
+Host: gm-mpc
+
+Timers On : Mon Nov 17 00:11:31 2025
+Timers Off: Mon Nov 17 00:12:30 2025
+
+Wall Time:       59.24 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :     38.400u      2.650s      1.677w      7 calls
+build grid                          :     16.667u      0.850s      0.658w      7 calls
+post-process grid                   :     21.717u      1.800s      1.018w      7 calls
+DFH: sparsity prep                  :      0.033u      0.033s      0.044w      7 calls
+Libint2ERI::Libint2ERI              :      1.500u      0.117s      0.094w    221 calls
+DFH: initialize()                   :      7.867u      0.767s      0.355w      7 calls
+DFH: AO Construction                :      0.583u      0.067s      0.025w      7 calls
+DFH: AO-Met. Contraction            :      0.650u      0.067s      0.026w      7 calls
+HF: Form core H                     :      4.267u      0.383s      0.178w      7 calls
+HF: Form S/X                        :      0.200u      0.017s      0.008w      7 calls
+HF: Guess                           :     37.550u      5.467s      1.620w      7 calls
+SAD Guess                           :     37.167u      5.417s      1.604w      7 calls
+HF: Form G                          :    282.917u      1.833s     10.711w     66 calls
+RV: Form V                          :    279.017u      1.300s     10.542w     67 calls
+Properties                          :     72.681p                         229308 calls
+Functional                          :     45.759p                         229308 calls
+V_xc                                :     64.663p                         213382 calls
+JK: D                               :      0.050u      0.017s      0.001w     67 calls
+JK: USO2AO                          :      1.150u      0.050s      0.044w     67 calls
+JK: JK                              :      3.450u      0.233s      0.139w     67 calls
+DFH: compute_JK()                   :      3.433u      0.233s      0.138w     67 calls
+DFH: Grabbing AOs                   :      0.000u      0.000s      0.000w     67 calls
+DFH: compute_J                      :      1.217u      0.117s      0.058w     67 calls
+DFH: compute_K                      :      1.617u      0.083s      0.058w     67 calls
+JK: AO2USO                          :      1.517u      0.133s      0.065w     67 calls
+HF: Form F                          :      0.333u      0.033s      0.015w     66 calls
+HF: Form D                          :      0.000u      0.000s      0.001w     66 calls
+HF: DIIS                            :     14.800u      1.267s      0.672w     59 calls
+HF: Form C                          :      0.733u      0.067s      0.031w     59 calls
+Grad: V T Perturb                   :      0.767u      0.033s      0.031w      5 calls
+Grad: S                             :      0.550u      0.033s      0.021w      5 calls
+Grad: JK                            :     15.183u      1.283s      0.627w      5 calls
+JKGrad: Amn                         :      3.683u      0.367s      0.154w      5 calls
+JKGrad: Awmn                        :      0.000u      0.000s      0.000w      5 calls
+JKGrad: AB                          :      3.633u      0.250s      0.145w      5 calls
+JKGrad: UV                          :      0.233u      0.033s      0.011w      5 calls
+JKGrad: ABx                         :      0.417u      0.017s      0.016w      5 calls
+JKGrad: Amnx                        :      4.217u      0.317s      0.170w      5 calls
+Grad: XC                            :     51.133u      0.150s      1.926w      5 calls
+V_xc gradient                       :     10.970p                          15926 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :     38.400u      2.650s      1.677w      7 calls
+| build grid                        :     16.667u      0.850s      0.658w      7 calls
+| post-process grid                 :     21.717u      1.800s      1.018w      7 calls
+DFH: sparsity prep                  :      0.033u      0.033s      0.044w      7 calls
+| Libint2ERI::Libint2ERI            :      0.017u      0.033s      0.029w      7 calls
+DFH: initialize()                   :      7.867u      0.767s      0.355w      7 calls
+| Libint2ERI::Libint2ERI            :      0.517u      0.033s      0.026w    119 calls
+| DFH: AO Construction              :      0.583u      0.067s      0.025w      7 calls
+| DFH: AO-Met. Contraction          :      0.650u      0.067s      0.026w      7 calls
+HF: Form core H                     :      4.267u      0.383s      0.178w      7 calls
+HF: Form S/X                        :      0.200u      0.017s      0.008w      7 calls
+HF: Guess                           :     37.550u      5.467s      1.620w      7 calls
+| SAD Guess                         :     37.167u      5.417s      1.604w      7 calls
+HF: Form G                          :    282.917u      1.833s     10.711w     67 calls
+| RV: Form V                        :    279.017u      1.300s     10.542w     67 calls
+| | Properties                      :     57.296p                         213382 calls
+| | Functional                      :     42.384p                         213382 calls
+| | V_xc                            :     64.663p                         213382 calls
+| JK: D                             :      0.050u      0.017s      0.001w     67 calls
+| JK: USO2AO                        :      1.150u      0.050s      0.044w     67 calls
+| JK: JK                            :      3.450u      0.233s      0.139w     67 calls
+| | DFH: compute_JK()               :      3.433u      0.233s      0.138w     67 calls
+| | | DFH: Grabbing AOs             :      0.000u      0.000s      0.000w     67 calls
+| | | DFH: compute_J                :      1.217u      0.117s      0.058w     67 calls
+| | | DFH: compute_K                :      1.617u      0.083s      0.058w     67 calls
+| JK: AO2USO                        :      1.517u      0.133s      0.065w     67 calls
+HF: Form F                          :      0.333u      0.033s      0.015w     66 calls
+HF: Form D                          :      0.000u      0.000s      0.001w     66 calls
+HF: DIIS                            :     14.800u      1.267s      0.672w     59 calls
+HF: Form C                          :      0.733u      0.067s      0.031w     59 calls
+Grad: V T Perturb                   :      0.767u      0.033s      0.031w      5 calls
+Grad: S                             :      0.550u      0.033s      0.021w      5 calls
+Grad: JK                            :     15.183u      1.283s      0.627w      5 calls
+| JKGrad: Amn                       :      3.683u      0.367s      0.154w      5 calls
+| | Libint2ERI::Libint2ERI          :      0.350u      0.033s      0.016w      5 calls
+| JKGrad: Awmn                      :      0.000u      0.000s      0.000w      5 calls
+| JKGrad: AB                        :      3.633u      0.250s      0.145w      5 calls
+| | Libint2ERI::Libint2ERI          :      0.117u      0.000s      0.004w     80 calls
+| JKGrad: UV                        :      0.233u      0.033s      0.011w      5 calls
+| JKGrad: ABx                       :      0.417u      0.017s      0.016w      5 calls
+| | Libint2ERI::Libint2ERI          :      0.017u      0.000s      0.000w      5 calls
+| JKGrad: Amnx                      :      4.217u      0.317s      0.170w      5 calls
+| | Libint2ERI::Libint2ERI          :      0.483u      0.017s      0.019w      5 calls
+Grad: XC                            :     51.133u      0.150s      1.926w      5 calls
+| Properties                        :     15.385p                          15926 calls
+| Functional                        :      3.375p                          15926 calls
+| V_xc gradient                     :     10.970p                          15926 calls
+
+**************************************************************************************
+
+Host: gm-mpc
+
+Timers On : Sun Nov 16 21:29:33 2025
+Timers Off: Mon Nov 17 00:12:30 2025
+
+Wall Time:     9777.02 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :     23.133u      1.533s      1.353w     25 calls
+build grid                          :      9.650u      0.467s      0.566w     25 calls
+post-process grid                   :     13.417u      1.067s      0.784w     25 calls
+Total PK formation time             :     13.067u      1.267s      2.178w     25 calls
+Libint2ERI::Libint2ERI              :      5.833u      1.400s      1.962w    273 calls
+HF: Form core H                     :      6.317u      0.567s      0.356w     25 calls
+HF: Form S/X                        :      0.417u      0.017s      0.022w     25 calls
+HF: Guess                           :     41.733u      5.167s      2.394w     25 calls
+SAD Guess                           :     41.050u      5.100s      2.348w     25 calls
+HF: Form G                          :    170.883u      1.550s     12.447w    235 calls
+RV: Form V                          :    165.483u      1.117s     12.207w    235 calls
+Properties                          :     32.040p                         202882 calls
+Functional                          :     31.500p                         202882 calls
+V_xc                                :     34.346p                         195710 calls
+JK: D                               :      0.067u      0.017s      0.005w    235 calls
+JK: USO2AO                          :      1.133u      0.067s      0.047w    235 calls
+JK: JK                              :      1.500u      0.050s      0.080w    235 calls
+PK computes JK                      :      1.483u      0.050s      0.078w    235 calls
+JK: AO2USO                          :      0.617u      0.067s      0.027w    235 calls
+HF: Form F                          :      0.650u      0.017s      0.031w    235 calls
+HF: Form D                          :      0.017u      0.000s      0.004w    235 calls
+HF: DIIS                            :     15.567u      1.300s      1.305w    210 calls
+HF: Form C                          :      1.500u      0.117s      0.108w    210 calls
+Grad: V T Perturb                   :      0.033u      0.000s      0.011w     13 calls
+Grad: S                             :      0.000u      0.000s      0.005w     13 calls
+Grad: JK                            :      2.750u      0.767s      0.535w     13 calls
+Grad: XC                            :      5.167u      0.017s      0.782w     13 calls
+V_xc gradient                       :      1.084p                           7172 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :     23.133u      1.533s      1.353w     25 calls
+| build grid                        :      9.650u      0.467s      0.566w     25 calls
+| post-process grid                 :     13.417u      1.067s      0.784w     25 calls
+Total PK formation time             :     13.067u      1.267s      2.178w     25 calls
+| Libint2ERI::Libint2ERI            :      3.900u      0.833s      1.580w    221 calls
+HF: Form core H                     :      6.317u      0.567s      0.356w     25 calls
+HF: Form S/X                        :      0.417u      0.017s      0.022w     25 calls
+HF: Guess                           :     41.733u      5.167s      2.394w     25 calls
+| SAD Guess                         :     41.050u      5.100s      2.348w     25 calls
+HF: Form G                          :    170.883u      1.550s     12.447w    235 calls
+| RV: Form V                        :    165.483u      1.117s     12.207w    235 calls
+| | Properties                      :     30.964p                         195710 calls
+| | Functional                      :     30.631p                         195710 calls
+| | V_xc                            :     34.346p                         195710 calls
+| JK: D                             :      0.067u      0.017s      0.005w    235 calls
+| JK: USO2AO                        :      1.133u      0.067s      0.047w    235 calls
+| JK: JK                            :      1.500u      0.050s      0.080w    235 calls
+| | PK computes JK                  :      1.483u      0.050s      0.078w    235 calls
+| JK: AO2USO                        :      0.617u      0.067s      0.027w    235 calls
+HF: Form F                          :      0.650u      0.017s      0.031w    235 calls
+HF: Form D                          :      0.017u      0.000s      0.004w    235 calls
+HF: DIIS                            :     15.567u      1.300s      1.305w    210 calls
+HF: Form C                          :      1.500u      0.117s      0.108w    210 calls
+Grad: V T Perturb                   :      0.033u      0.000s      0.011w     13 calls
+Grad: S                             :      0.000u      0.000s      0.005w     13 calls
+Grad: JK                            :      2.750u      0.767s      0.535w     13 calls
+| Libint2ERI::Libint2ERI            :      1.933u      0.567s      0.382w     52 calls
+Grad: XC                            :      5.167u      0.017s      0.782w     13 calls
+| Properties                        :      1.076p                           7172 calls
+| Functional                        :      0.869p                           7172 calls
+| V_xc gradient                     :      1.084p                           7172 calls
+
+**************************************************************************************
+
+Host: gm-mpc
+
+Timers On : Mon Nov 17 00:12:47 2025
+Timers Off: Tue Nov 18 19:27:35 2025
+
+Wall Time:   155688.18 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :  31819.550u    741.267s   2069.929w   1795 calls
+build grid                          :  26423.267u    420.200s   1129.948w   1795 calls
+post-process grid                   :   5381.450u    320.283s    939.389w   1795 calls
+DFH: sparsity prep                  :    156.317u      0.267s     93.753w   1795 calls
+Libint2ERI::Libint2ERI              :   6406.400u    481.067s    322.722w  65826 calls
+DFH: initialize()                   :  80262.933u   6410.267s   3652.968w   1795 calls
+DFH: AO Construction                :  12735.183u    765.967s    508.721w  17345 calls
+DFH: AO-Met. Contraction            :  47766.567u   4460.333s   1998.837w  17345 calls
+HF: Form core H                     :   1984.317u    134.183s     80.482w   1794 calls
+HF: Form S/X                        :    492.600u     34.517s     19.818w   1794 calls
+HF: Guess                           :  12069.417u   1077.483s    494.126w   1794 calls
+SAD Guess                           :  11958.717u   1069.067s    489.669w   1794 calls
+HF: Form G                          : 3405594.067u  19815.683s 128848.811w  31272 calls
+RV: Form V                          : 3162052.750u   3803.367s 119011.181w  31272 calls
+Properties                          : 1260268.931p                         244709285 calls
+Functional                          :  66287.139p                         244709285 calls
+V_xc                                : 657417.723p                         232531181 calls
+JK: D                               :    395.583u     29.967s     16.793w  31272 calls
+JK: USO2AO                          :    402.150u     27.333s     16.986w  31272 calls
+JK: JK                              : 240585.383u  15808.150s   9717.642w  31272 calls
+DFH: compute_JK()                   : 240469.500u  15802.883s   9714.365w  31272 calls
+DFH: Grabbing AOs                   :      7.283u      0.183s      0.190w  53420 calls
+DFH: compute_J                      :  19224.667u    255.117s    732.758w  53420 calls
+DFH: compute_K                      : 139265.083u   3189.933s   5358.253w  53420 calls
+JK: AO2USO                          :    684.667u     45.233s     29.604w  31272 calls
+HF: Form F                          :    583.183u     45.617s     23.733w  31272 calls
+HF: Form D                          :    169.517u     11.033s      7.410w  31272 calls
+HF: DIIS                            :  11609.017u   1008.250s    478.379w  29478 calls
+HF: Form C                          :   8909.917u    597.633s    357.355w  29478 calls
+Grad: V T Perturb                   :   1314.967u     65.850s     51.826w   1764 calls
+Grad: S                             :    576.983u     35.317s     23.008w   1764 calls
+Grad: JK                            :  72852.450u   7223.600s   4677.512w   1764 calls
+JKGrad: Amn                         :  23594.683u   2993.233s   1565.516w   1764 calls
+JKGrad: Awmn                        :      0.050u      0.000s      0.002w   1764 calls
+JKGrad: AB                          :  18110.083u    937.900s   1152.116w   1764 calls
+JKGrad: UV                          :   3261.900u    336.450s    265.049w   1764 calls
+JKGrad: ABx                         :    719.067u     50.867s     39.871w   1764 calls
+JKGrad: Amnx                        :  26374.950u   2786.183s   1592.790w   1764 calls
+Grad: XC                            : 275722.017u    371.767s  10405.406w   1764 calls
+V_xc gradient                       :  73065.263p                         12178104 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :  31819.550u    741.267s   2069.929w   1795 calls
+| build grid                        :  26423.267u    420.200s   1129.948w   1795 calls
+| post-process grid                 :   5381.450u    320.283s    939.389w   1795 calls
+DFH: sparsity prep                  :    156.317u      0.267s     93.753w   1795 calls
+| Libint2ERI::Libint2ERI            :    102.150u      0.167s     61.106w   1795 calls
+DFH: initialize()                   :  80262.933u   6410.267s   3652.968w   1795 calls
+| Libint2ERI::Libint2ERI            :   2098.067u    160.617s     88.370w  30515 calls
+| DFH: AO Construction              :  12735.183u    765.967s    508.721w  17345 calls
+| DFH: AO-Met. Contraction          :  47766.567u   4460.333s   1998.837w  17345 calls
+HF: Form core H                     :   1984.317u    134.183s     80.482w   1794 calls
+HF: Form S/X                        :    492.600u     34.517s     19.818w   1794 calls
+HF: Guess                           :  12069.417u   1077.483s    494.126w   1794 calls
+| SAD Guess                         :  11958.717u   1069.067s    489.669w   1794 calls
+HF: Form G                          : 3405594.067u  19815.683s 128848.811w  31272 calls
+| RV: Form V                        : 3162052.750u   3803.367s 119011.181w  31272 calls
+| | Properties                      : 1172229.558p                         232531181 calls
+| | Functional                      :  62600.831p                         232531181 calls
+| | V_xc                            : 657417.723p                         232531181 calls
+| JK: D                             :    395.583u     29.967s     16.793w  31272 calls
+| JK: USO2AO                        :    402.150u     27.333s     16.986w  31272 calls
+| JK: JK                            : 240585.383u  15808.150s   9717.642w  31272 calls
+| | DFH: compute_JK()               : 240469.500u  15802.883s   9714.365w  31272 calls
+| | | DFH: Grabbing AOs             :      7.283u      0.183s      0.190w  53420 calls
+| | | DFH: compute_J                :  19224.667u    255.117s    732.758w  53420 calls
+| | | DFH: compute_K                : 139265.083u   3189.933s   5358.253w  53420 calls
+| JK: AO2USO                        :    684.667u     45.233s     29.604w  31272 calls
+HF: Form F                          :    583.183u     45.617s     23.733w  31272 calls
+HF: Form D                          :    169.517u     11.033s      7.410w  31272 calls
+HF: DIIS                            :  11609.017u   1008.250s    478.379w  29478 calls
+HF: Form C                          :   8909.917u    597.633s    357.355w  29478 calls
+Grad: V T Perturb                   :   1314.967u     65.850s     51.826w   1764 calls
+Grad: S                             :    576.983u     35.317s     23.008w   1764 calls
+Grad: JK                            :  72852.450u   7223.600s   4677.512w   1764 calls
+| JKGrad: Amn                       :  23594.683u   2993.233s   1565.516w   1764 calls
+| | Libint2ERI::Libint2ERI          :   2096.583u    161.483s     84.863w   1764 calls
+| JKGrad: Awmn                      :      0.050u      0.000s      0.002w   1764 calls
+| JKGrad: AB                        :  18110.083u    937.900s   1152.116w   1764 calls
+| | Libint2ERI::Libint2ERI          :     27.167u      1.633s      4.019w  28224 calls
+| JKGrad: UV                        :   3261.900u    336.450s    265.049w   1764 calls
+| JKGrad: ABx                       :    719.067u     50.867s     39.871w   1764 calls
+| | Libint2ERI::Libint2ERI          :      6.283u      0.400s      0.403w   1764 calls
+| JKGrad: Amnx                      :  26374.950u   2786.183s   1592.790w   1764 calls
+| | Libint2ERI::Libint2ERI          :   2076.150u    156.767s     83.961w   1764 calls
+Grad: XC                            : 275722.017u    371.767s  10405.406w   1764 calls
+| Properties                        :  88039.373p                         12178104 calls
+| Functional                        :   3686.308p                         12178104 calls
+| V_xc gradient                     :  73065.263p                         12178104 calls
+
+**************************************************************************************
+
+Host: gm-mpc
+
+Timers On : Mon Dec  1 13:07:25 2025
+Timers Off: Mon Dec  1 13:26:22 2025
+
+Wall Time:     1137.45 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :    187.450u      8.783s      9.577w     29 calls
+build grid                          :    131.650u      4.450s      5.327w     29 calls
+post-process grid                   :     55.533u      4.333s      4.241w     29 calls
+Total PK formation time             :    998.217u    126.233s    139.623w     29 calls
+Libint2ERI::Libint2ERI              :     18.217u      1.533s     11.788w    493 calls
+HF: Form core H                     :     45.350u      4.000s      1.874w     29 calls
+HF: Form S/X                        :      9.450u      0.817s      0.392w     29 calls
+HF: Guess                           :    214.133u     20.967s      8.848w     29 calls
+SAD Guess                           :    212.133u     20.833s      8.764w     29 calls
+HF: Form G                          :  10183.567u     87.683s    491.179w    343 calls
+RV: Form V                          :   9173.567u     21.900s    346.025w    343 calls
+Properties                          :   3411.565p                         842065 calls
+Functional                          :    213.630p                         842065 calls
+V_xc                                :   1846.409p                         842065 calls
+JK: D                               :      7.000u      0.617s      0.291w    343 calls
+JK: USO2AO                          :     15.617u      1.350s      0.649w    343 calls
+JK: JK                              :    950.933u     61.117s    142.660w    343 calls
+PK computes JK                      :    950.083u     61.100s    142.631w    343 calls
+JK: AO2USO                          :     13.117u      0.967s      0.620w    343 calls
+HF: Form F                          :      9.650u      0.950s      0.420w    343 calls
+HF: Form D                          :      2.500u      0.183s      0.096w    343 calls
+HF: DIIS                            :    105.317u      8.983s      4.644w    314 calls
+HF: Form C                          :     53.000u      3.750s      2.148w    314 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :    187.450u      8.783s      9.577w     29 calls
+| build grid                        :    131.650u      4.450s      5.327w     29 calls
+| post-process grid                 :     55.533u      4.333s      4.241w     29 calls
+Total PK formation time             :    998.217u    126.233s    139.623w     29 calls
+| Libint2ERI::Libint2ERI            :     18.217u      1.533s     11.788w    493 calls
+HF: Form core H                     :     45.350u      4.000s      1.874w     29 calls
+HF: Form S/X                        :      9.450u      0.817s      0.392w     29 calls
+HF: Guess                           :    214.133u     20.967s      8.848w     29 calls
+| SAD Guess                         :    212.133u     20.833s      8.764w     29 calls
+HF: Form G                          :  10183.567u     87.683s    491.179w    343 calls
+| RV: Form V                        :   9173.567u     21.900s    346.025w    343 calls
+| | Properties                      :   3411.565p                         842065 calls
+| | Functional                      :    213.630p                         842065 calls
+| | V_xc                            :   1846.409p                         842065 calls
+| JK: D                             :      7.000u      0.617s      0.291w    343 calls
+| JK: USO2AO                        :     15.617u      1.350s      0.649w    343 calls
+| JK: JK                            :    950.933u     61.117s    142.660w    343 calls
+| | PK computes JK                  :    950.083u     61.100s    142.631w    343 calls
+| JK: AO2USO                        :     13.117u      0.967s      0.620w    343 calls
+HF: Form F                          :      9.650u      0.950s      0.420w    343 calls
+HF: Form D                          :      2.500u      0.183s      0.096w    343 calls
+HF: DIIS                            :    105.317u      8.983s      4.644w    314 calls
+HF: Form C                          :     53.000u      3.750s      2.148w    314 calls
+
+**************************************************************************************
+
+Host: gm-mpc
+
+Timers On : Mon Dec  1 12:45:16 2025
+Timers Off: Mon Dec  1 13:26:23 2025
+
+Wall Time:     2466.53 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      5.883u      0.450s      0.503w      7 calls
+build grid                          :      2.767u      0.167s      0.251w      7 calls
+post-process grid                   :      3.100u      0.283s      0.251w      7 calls
+Total PK formation time             :      2.900u      0.417s      0.506w      7 calls
+Libint2ERI::Libint2ERI              :      0.383u      0.283s      0.276w     47 calls
+HF: Form core H                     :      1.783u      0.133s      0.111w      7 calls
+HF: Form S/X                        :      0.367u      0.050s      0.022w      7 calls
+HF: Guess                           :      7.567u      1.383s      0.545w      7 calls
+SAD Guess                           :      7.467u      1.367s      0.534w      7 calls
+HF: Form G                          :     45.917u      0.150s      4.974w     60 calls
+RV: Form V                          :     44.833u      0.100s      4.902w     60 calls
+Properties                          :      8.301p                          62310 calls
+Functional                          :      8.681p                          62310 calls
+V_xc                                :      9.346p                          62310 calls
+JK: D                               :      0.167u      0.017s      0.005w     60 calls
+JK: USO2AO                          :      0.000u      0.000s      0.003w     60 calls
+JK: JK                              :      0.333u      0.017s      0.031w     60 calls
+PK computes JK                      :      0.333u      0.017s      0.031w     60 calls
+JK: AO2USO                          :      0.000u      0.000s      0.004w     60 calls
+HF: Form F                          :      0.217u      0.000s      0.010w     60 calls
+HF: Form D                          :      0.067u      0.000s      0.002w     60 calls
+HF: DIIS                            :      7.750u      0.783s      0.760w     53 calls
+HF: Form C                          :      0.483u      0.033s      0.035w     53 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      5.883u      0.450s      0.503w      7 calls
+| build grid                        :      2.767u      0.167s      0.251w      7 calls
+| post-process grid                 :      3.100u      0.283s      0.251w      7 calls
+Total PK formation time             :      2.900u      0.417s      0.506w      7 calls
+| Libint2ERI::Libint2ERI            :      0.383u      0.283s      0.276w     47 calls
+HF: Form core H                     :      1.783u      0.133s      0.111w      7 calls
+HF: Form S/X                        :      0.367u      0.050s      0.022w      7 calls
+HF: Guess                           :      7.567u      1.383s      0.545w      7 calls
+| SAD Guess                         :      7.467u      1.367s      0.534w      7 calls
+HF: Form G                          :     45.917u      0.150s      4.974w     60 calls
+| RV: Form V                        :     44.833u      0.100s      4.902w     60 calls
+| | Properties                      :      8.301p                          62310 calls
+| | Functional                      :      8.681p                          62310 calls
+| | V_xc                            :      9.346p                          62310 calls
+| JK: D                             :      0.167u      0.017s      0.005w     60 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.003w     60 calls
+| JK: JK                            :      0.333u      0.017s      0.031w     60 calls
+| | PK computes JK                  :      0.333u      0.017s      0.031w     60 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.004w     60 calls
+HF: Form F                          :      0.217u      0.000s      0.010w     60 calls
+HF: Form D                          :      0.067u      0.000s      0.002w     60 calls
+HF: DIIS                            :      7.750u      0.783s      0.760w     53 calls
+HF: Form C                          :      0.483u      0.033s      0.035w     53 calls
+
+**************************************************************************************
